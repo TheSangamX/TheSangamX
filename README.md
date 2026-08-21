@@ -15,6 +15,19 @@
 
 <br/>
 
+<div align="center">
+<table>
+<tr>
+<td align="center"><h3>4</h3><sub>End-to-End ML Projects</sub></td>
+<td align="center"><h3>3</h3><sub>Live Web Apps</sub></td>
+<td align="center"><h3>85.17%</h3><sub>Model Accuracy</sub></td>
+<td align="center"><h3>1</h3><sub>App on Google Play</sub></td>
+</tr>
+</table>
+</div>
+
+<br/>
+
 ## `$ whoami`
 
 I'm a Computer Engineering student building **complete, deployed ML systems** — not notebooks that end at `.ipynb`. Every project below ships as a live product: a served API, a mobile app on Google Play, or a hosted dashboard someone can actually open.
@@ -142,16 +155,29 @@ Learn deeply → Build real projects → Deploy → Improve → Repeat
 
 <br/>
 
-## `$ ./github-stats.sh`
+## `$ ./contribution-graph.sh`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TheSangamX&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSangamX&layout=compact&theme=tokyonight&hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheSangamX/TheSangamX/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TheSangamX/TheSangamX/output/github-contribution-grid-snake.svg" />
+  <img alt="Sangam's contribution snake" src="https://raw.githubusercontent.com/TheSangamX/TheSangamX/output/github-contribution-grid-snake.svg" width="100%" />
+</picture>
+
+<sub>Auto-refreshes daily via GitHub Actions — one-time 3-minute setup below.</sub>
+
+</div>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=TheSangamX&theme=tokyonight&hide_border=true" />
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=TheSangamX&show_icons=true&hide_border=true&cache_seconds=86400&bg_color=0F172A&title_color=38BDF8&icon_color=0EA5E9&text_color=E2E8F0" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSangamX&layout=compact&hide_border=true&cache_seconds=86400&bg_color=0F172A&title_color=38BDF8&text_color=E2E8F0" />
+
+<br/>
+<sub>Pulled live from the GitHub API — if a card looks blank, refresh once; the shared public endpoint occasionally throttles.</sub>
 
 </div>
 
