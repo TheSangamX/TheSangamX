@@ -1,318 +1,183 @@
-# 👋 Hey, I'm Sangam Gupta
+<div align="center">
 
-### 🚀 Aspiring AI/ML Engineer | Data Science Enthusiast | Builder
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C7FF&center=true&vCenter=true&width=700&lines=Building+AI+%26+Data-Driven+Solutions;Machine+Learning+%7C+Data+Science+%7C+APIs;Turning+Ideas+into+Real+Projects;Always+Learning%2C+Always+Building+🚀" />
-</p>
-
----
-
-## 🧑‍💻 About Me
-
-I'm **Sangam Gupta**, a Computer Engineering student passionate about **Artificial Intelligence, Machine Learning, Data Science, APIs, and building real-world applications**.
-
-I enjoy taking an idea from:
-
-```text
-Idea 💡
-   ↓
-Data 📊
-   ↓
-Machine Learning 🤖
-   ↓
-API ⚡
-   ↓
-Web / Application 🌐
-   ↓
-Deployment 🚀
+```
+sangam@github ~ $ whoami
 ```
 
-Currently focused on improving my skills in:
+</div>
 
-* 🤖 Machine Learning
-* 🐍 Python
-* 📊 Data Science & Analytics
-* ⚡ FastAPI & APIs
-* 🧠 Artificial Intelligence
-* ☁️ Cloud & Deployment
-* 📈 Financial Markets & Algorithmic Trading
-
----
-
-## 🚀 What I'm Building
-
-<table>
+<table align="center">
 <tr>
-<td width="50%">
+<td>
 
-### 📰 NewsIntel
-
-AI-powered fake news detection platform.
-
-* NLP-based text analysis
-* TF-IDF Vectorization
-* Passive Aggressive Classifier
-* Flask Backend
-* Supabase Database
-* Google Authentication
-
-</td>
-
-<td width="50%">
-
-### 📊 Student Marks Predictor
-
-Machine Learning project for predicting student performance based on different factors.
-
-* Data preprocessing
-* Machine Learning models
-* Model evaluation
-* Prediction system
-* Streamlit interface
-* API integration journey
+```
+       ___________
+      '._==_==_=_.'
+      .-\:      /-.
+     | (|:.     |) |
+      '-|:.     |-'
+        \::.    /
+         '::. .'
+           ) (
+         _.' '._
+        `"""""""`
+```
 
 </td>
-</tr>
+<td>
 
-<tr>
-<td width="50%">
-
-### 💼 LinkedInPilot
-
-AI-powered LinkedIn profile optimization platform.
-
-* AI-powered suggestions
-* Profile optimization
-* Modern SaaS workflow
-* Authentication
-* Subscription concepts
-* Web application development
-
-</td>
-
-<td width="50%">
-
-### 🌊 AquaSense AI
-
-Reservoir monitoring and prediction project.
-
-* Data analysis
-* Visualization
-* Prediction modules
-* Streamlit
-* Plotly
-* Environmental data insights
+```
+ ____                                  
+/ ___|  __ _ _ __   __ _  __ _ _ __ ___
+\___ \ / _` | '_ \ / _` |/ _` | '_ ` _ \
+ ___) | (_| | | | | (_| | (_| | | | | | |
+|____/ \__,_|_| |_|\__, |\__,_|_| |_| |_|
+                    |___/                
+```
 
 </td>
 </tr>
 </table>
 
+<div align="center">
+
+**Aspiring AI/ML Engineer** · **Data Science Enthusiast** · **Building AI-powered applications**
+
+📍 Mumbai, India &nbsp;|&nbsp; 🌐 [sangamgupta.in](https://sangamgupta.in) &nbsp;|&nbsp; 💼 [LinkedIn](#) &nbsp;|&nbsp; 🐙 TheSangamX
+
+</div>
+
 ---
 
-# 🛠️ Tech Stack
+### `sangam@github ~ $ cat about.txt`
 
-### 👨‍💻 Programming
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,js,html,css" />
-</p>
-
-### 🤖 Data Science & Machine Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=python" />
-</p>
-
-```text
-Pandas • NumPy • Scikit-learn
-Matplotlib • Seaborn
-Machine Learning • Data Analysis
-Model Evaluation • Feature Engineering
-```
-
-### 🌐 Backend & APIs
-
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,flask" />
-</p>
-
-```text
-REST APIs • API Integration • Model Deployment
-```
-
-### 🗄️ Databases & Tools
-
-<p>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,vscode" />
-</p>
-
-### ☁️ Deployment & Platforms
-
-<p>
-<img src="https://skillicons.dev/icons?i=vercel,netlify,cloudflare" />
-</p>
-
-```text
-DigitalOcean • Streamlit • GitHub
+```yaml
+name: Sangam Gupta
+role: Aspiring AI/ML Engineer & Data Scientist
+background: Computer Engineering
+focus:
+  - Machine Learning & Data Science
+  - Python-based API development (FastAPI / Flask)
+  - Algorithmic Trading & Quantitative Finance
+  - Cloud deployment & production ML systems
+currently_learning: [DevOps, Cloud Technologies, Deep Learning]
+philosophy: "Depth over breadth — real projects over endless tutorials"
 ```
 
 ---
 
-# 📊 GitHub Analytics
+### `sangam@github ~ $ ./tech-stack.sh`
 
-<p align="center">
+<div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=TheSangamX&show_icons=true&hide_border=true&count_private=true" />
+**Languages & Core**
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSangamX&layout=compact&hide_border=true" />
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-</p>
+**Data Science & ML**
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logoColor=white)
+
+**Backend & APIs**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+**Databases**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+
+**Visualization & Analytics**
+
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+
+**Tools & Deployment**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+</div>
 
 ---
 
-# 🔥 Contribution Streak
+### `sangam@github ~ $ ls featured-projects/`
 
-<p align="center">
+<table>
+<tr>
+<td width="50%">
 
-<img src="https://streak-stats.demolab.com?user=TheSangamX&hide_border=true" />
+**🗞️ NewsIntel**
+AI-powered fake news detection platform using NLP.
+`TF-IDF` `Passive Aggressive Classifier` `Flask` `Supabase`
 
-</p>
+</td>
+<td width="50%">
+
+**📊 Student Marks Predictor**
+End-to-end ML pipeline — from raw data to a served prediction API.
+`Scikit-learn` `FastAPI` `Pandas`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**💧 AquaSense AI**
+Reservoir monitoring & prediction dashboard.
+`Streamlit` `Plotly` `Data Analysis`
+
+</td>
+<td width="50%">
+
+**🗳️ Indian Election Dashboard**
+Data visualization for the Indian General Election 2024.
+`Power BI` `Dashboard Design`
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+<i>LinkedInPilot — AI-powered LinkedIn profile optimization — also in progress</i>
+</div>
 
 ---
 
-# 🐍 Contribution Snake
+### `sangam@github ~ $ cat currently.md`
 
-<p align="center">
-
-<img src="https://raw.githubusercontent.com/TheSangamX/TheSangamX/output/github-contribution-grid-snake.svg" />
-
-</p>
-
----
-
-# 📈 My Developer Journey
-
-```text
-2024 ──────── Started Exploring Technology
-              │
-              ▼
-2025 ──────── Web Development + Python
-              │
-              ▼
-2026 ──────── Data Science + Machine Learning
-              │
-              ├── Built ML Projects
-              ├── Worked with APIs
-              ├── FastAPI / Flask
-              ├── Streamlit Applications
-              ├── Data Visualization
-              └── Git & GitHub
-              │
-              ▼
-NEXT ──────── AI Engineer / ML Engineer 🚀
+```diff
++ Deepening ML → API → Deployment pipeline (FastAPI + cloud)
++ Exploring algorithmic trading with Python (yfinance, Dhan API)
++ Strengthening SQL, statistics, and production-grade ML fundamentals
 ```
 
 ---
 
-# 📌 Featured Areas
+### `sangam@github ~ $ ./contact.sh`
 
-```text
-🤖 Artificial Intelligence
-🧠 Machine Learning
-📊 Data Science
-🐍 Python Development
-⚡ API Development
-🌐 Full-Stack Applications
-📈 Algorithmic Trading
-☁️ Cloud Deployment
-```
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://sangamgupta.in)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheSangamX)
+
+</div>
 
 ---
 
-# 🎯 Current Focus
-
-```python
-class SangamGupta:
-
-    def __init__(self):
-
-        self.name = "Sangam Gupta"
-
-        self.focus = [
-            "Machine Learning",
-            "Data Science",
-            "FastAPI",
-            "AI Applications",
-            "Cloud Deployment"
-        ]
-
-        self.goal = "Build useful AI-powered products"
-
-    def current_status(self):
-
-        return "Learning 🚀 Building 💻 Improving 📈"
-```
-
----
-
-# 📂 Featured Projects
-
-| Project                          | Description                                           | Technologies                    |
-| -------------------------------- | ----------------------------------------------------- | ------------------------------- |
-| 📰 **NewsIntel**                 | AI-powered fake news detection platform               | Python, NLP, Flask, Supabase    |
-| 🎓 **Student Marks Predictor**   | Machine learning-based student performance prediction | Python, Scikit-learn, Streamlit |
-| 💼 **LinkedInPilot**             | AI-powered LinkedIn profile optimization platform     | AI, Web Development, APIs       |
-| 🌊 **AquaSense AI**              | Reservoir monitoring and prediction system            | Python, Streamlit, Plotly       |
-| 📊 **Indian Election Dashboard** | Data visualization dashboard                          | Power BI                        |
-| 📈 **Trading Projects**          | Market analysis and algorithmic trading experiments   | Python, APIs, Financial Data    |
-
----
-
-# 🧠 Currently Learning
-
-```text
-Machine Learning       ██████████░░  80%
-Python                 ██████████░░  85%
-Data Analysis          █████████░░░  75%
-SQL                    ████████░░░░  70%
-FastAPI                ███████░░░░░  60%
-Cloud & Deployment     ██████░░░░░░  55%
-Algorithmic Trading    ███████░░░░░  65%
-```
-
----
-
-# 🌐 Connect With Me
-
-<p>
-
-<a href="https://sangamgupta.in">
-<img src="https://img.shields.io/badge/Portfolio-Visit%20Website-blue?style=for-the-badge" />
-</a>
-
-<a href="mailto:YOUR_EMAIL_HERE">
-<img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge" />
-</a>
-
-</p>
-
-> Replace `YOUR_EMAIL_HERE` with the email address you want to make public.
-
----
-
-# 💡 Philosophy
-
-> **Learn → Build → Fail → Improve → Repeat 🚀**
-
-I believe the best way to learn technology is not just by watching tutorials, but by **building real projects, solving problems, breaking things, fixing them, and continuously improving.**
-
----
-
-<p align="center">
-
-### 🚀 Building today for the technology of tomorrow.
-
-<img src="https://komarev.com/ghpvc/?username=TheSangamX&label=Profile%20Views&style=for-the-badge" />
-
-</p>
+<div align="center">
+<sub>Built with real projects, not buzzwords. 🚀</sub>
+</div>
