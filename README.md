@@ -16,14 +16,12 @@
 <br/>
 
 <div align="center">
-<table>
-<tr>
-<td align="center"><h3>4</h3><sub>End-to-End ML Projects</sub></td>
-<td align="center"><h3>3</h3><sub>Live Web Apps</sub></td>
-<td align="center"><h3>85.17%</h3><sub>Model Accuracy</sub></td>
-<td align="center"><h3>1</h3><sub>App on Google Play</sub></td>
-</tr>
-</table>
+
+![Projects](https://img.shields.io/badge/4-End--to--End_ML_Projects-0EA5E9?style=for-the-badge&labelColor=0F172A&logo=scikitlearn&logoColor=white)
+![Web Apps](https://img.shields.io/badge/3-Live_Web_Apps-0EA5E9?style=for-the-badge&labelColor=0F172A&logo=streamlit&logoColor=white)
+![Accuracy](https://img.shields.io/badge/85.17%25-Model_Accuracy-0EA5E9?style=for-the-badge&labelColor=0F172A&logo=targetprocess&logoColor=white)
+![Google Play](https://img.shields.io/badge/1-App_on_Google_Play-0EA5E9?style=for-the-badge&labelColor=0F172A&logo=googleplay&logoColor=white)
+
 </div>
 
 <br/>
@@ -173,11 +171,11 @@ Learn deeply → Build real projects → Deploy → Improve → Repeat
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=TheSangamX&show_icons=true&hide_border=true&cache_seconds=86400&bg_color=0F172A&title_color=38BDF8&icon_color=0EA5E9&text_color=E2E8F0" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSangamX&layout=compact&hide_border=true&cache_seconds=86400&bg_color=0F172A&title_color=38BDF8&text_color=E2E8F0" />
+<img height="165" src="./profile/stats.svg" alt="GitHub Stats" />
+<img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
 
 <br/>
-<sub>Pulled live from the GitHub API — if a card looks blank, refresh once; the shared public endpoint occasionally throttles.</sub>
+<sub>Generated once a day by a GitHub Action and committed to this repo — no dependency on the shared public API, so the cards never show up broken.</sub>
 
 </div>
 
