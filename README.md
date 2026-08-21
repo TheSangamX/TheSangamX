@@ -1,27 +1,318 @@
-# 💫 About Me:
-🔭 I'm currently working on:<br>An AI-powered automated trading bot using Dhan API — aiming to build a full-fledged trading automation platform.<br><br>🤝 I'm looking to collaborate on:<br>Projects related to AI/ML, Quantitative Finance, Full Stack Web Development, and API-based automation.<br><br>🧠 I'm currently learning:<br>Advanced Python, Machine Learning, Data Analytics, Financial Modeling, and Backtesting Strategies.<br><br>💬 Ask me about:<br>Trading bots, Python automation, portfolio optimization, API integration, and how to automate your financial hustle.<br><br>🙋‍♂️ I'm looking for help with:<br>Integrating real-time data feeds, improving model performance, and deploying large-scale automation in trading systems.<br><br>😄 Fun fact:<br>I treat the stock market like a video game — just with real money, real strategies, and AI as my teammate 🎮📈
+# 👋 Hey, I'm Sangam Gupta
 
+### 🚀 Aspiring AI/ML Engineer | Data Science Enthusiast | Builder
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/thesangamx) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@TheSangamX) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/TheSangamX) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:founder@sangamgupta.in) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![mlflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=numpy&logoColor=blue) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white) ![Meta](https://img.shields.io/badge/Meta-%230467DF.svg?style=for-the-badge&logo=Meta&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=TheSangamX&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=TheSangamX&theme=shadow_red&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=TheSangamX&theme=shadow_red&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=TheSangamX&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=TheSangamX&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00C7FF&center=true&vCenter=true&width=700&lines=Building+AI+%26+Data-Driven+Solutions;Machine+Learning+%7C+Data+Science+%7C+APIs;Turning+Ideas+into+Real+Projects;Always+Learning%2C+Always+Building+🚀" />
+</p>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=TheSangamX&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🧑‍💻 About Me
+
+I'm **Sangam Gupta**, a Computer Engineering student passionate about **Artificial Intelligence, Machine Learning, Data Science, APIs, and building real-world applications**.
+
+I enjoy taking an idea from:
+
+```text
+Idea 💡
+   ↓
+Data 📊
+   ↓
+Machine Learning 🤖
+   ↓
+API ⚡
+   ↓
+Web / Application 🌐
+   ↓
+Deployment 🚀
+```
+
+Currently focused on improving my skills in:
+
+* 🤖 Machine Learning
+* 🐍 Python
+* 📊 Data Science & Analytics
+* ⚡ FastAPI & APIs
+* 🧠 Artificial Intelligence
+* ☁️ Cloud & Deployment
+* 📈 Financial Markets & Algorithmic Trading
+
+---
+
+## 🚀 What I'm Building
+
+<table>
+<tr>
+<td width="50%">
+
+### 📰 NewsIntel
+
+AI-powered fake news detection platform.
+
+* NLP-based text analysis
+* TF-IDF Vectorization
+* Passive Aggressive Classifier
+* Flask Backend
+* Supabase Database
+* Google Authentication
+
+</td>
+
+<td width="50%">
+
+### 📊 Student Marks Predictor
+
+Machine Learning project for predicting student performance based on different factors.
+
+* Data preprocessing
+* Machine Learning models
+* Model evaluation
+* Prediction system
+* Streamlit interface
+* API integration journey
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 💼 LinkedInPilot
+
+AI-powered LinkedIn profile optimization platform.
+
+* AI-powered suggestions
+* Profile optimization
+* Modern SaaS workflow
+* Authentication
+* Subscription concepts
+* Web application development
+
+</td>
+
+<td width="50%">
+
+### 🌊 AquaSense AI
+
+Reservoir monitoring and prediction project.
+
+* Data analysis
+* Visualization
+* Prediction modules
+* Streamlit
+* Plotly
+* Environmental data insights
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🛠️ Tech Stack
+
+### 👨‍💻 Programming
+
+<p>
+<img src="https://skillicons.dev/icons?i=python,js,html,css" />
+</p>
+
+### 🤖 Data Science & Machine Learning
+
+<p>
+<img src="https://skillicons.dev/icons?i=python" />
+</p>
+
+```text
+Pandas • NumPy • Scikit-learn
+Matplotlib • Seaborn
+Machine Learning • Data Analysis
+Model Evaluation • Feature Engineering
+```
+
+### 🌐 Backend & APIs
+
+<p>
+<img src="https://skillicons.dev/icons?i=fastapi,flask" />
+</p>
+
+```text
+REST APIs • API Integration • Model Deployment
+```
+
+### 🗄️ Databases & Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=mysql,postgres,git,github,vscode" />
+</p>
+
+### ☁️ Deployment & Platforms
+
+<p>
+<img src="https://skillicons.dev/icons?i=vercel,netlify,cloudflare" />
+</p>
+
+```text
+DigitalOcean • Streamlit • GitHub
+```
+
+---
+
+# 📊 GitHub Analytics
+
+<p align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=TheSangamX&show_icons=true&hide_border=true&count_private=true" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TheSangamX&layout=compact&hide_border=true" />
+
+</p>
+
+---
+
+# 🔥 Contribution Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com?user=TheSangamX&hide_border=true" />
+
+</p>
+
+---
+
+# 🐍 Contribution Snake
+
+<p align="center">
+
+<img src="https://raw.githubusercontent.com/TheSangamX/TheSangamX/output/github-contribution-grid-snake.svg" />
+
+</p>
+
+---
+
+# 📈 My Developer Journey
+
+```text
+2024 ──────── Started Exploring Technology
+              │
+              ▼
+2025 ──────── Web Development + Python
+              │
+              ▼
+2026 ──────── Data Science + Machine Learning
+              │
+              ├── Built ML Projects
+              ├── Worked with APIs
+              ├── FastAPI / Flask
+              ├── Streamlit Applications
+              ├── Data Visualization
+              └── Git & GitHub
+              │
+              ▼
+NEXT ──────── AI Engineer / ML Engineer 🚀
+```
+
+---
+
+# 📌 Featured Areas
+
+```text
+🤖 Artificial Intelligence
+🧠 Machine Learning
+📊 Data Science
+🐍 Python Development
+⚡ API Development
+🌐 Full-Stack Applications
+📈 Algorithmic Trading
+☁️ Cloud Deployment
+```
+
+---
+
+# 🎯 Current Focus
+
+```python
+class SangamGupta:
+
+    def __init__(self):
+
+        self.name = "Sangam Gupta"
+
+        self.focus = [
+            "Machine Learning",
+            "Data Science",
+            "FastAPI",
+            "AI Applications",
+            "Cloud Deployment"
+        ]
+
+        self.goal = "Build useful AI-powered products"
+
+    def current_status(self):
+
+        return "Learning 🚀 Building 💻 Improving 📈"
+```
+
+---
+
+# 📂 Featured Projects
+
+| Project                          | Description                                           | Technologies                    |
+| -------------------------------- | ----------------------------------------------------- | ------------------------------- |
+| 📰 **NewsIntel**                 | AI-powered fake news detection platform               | Python, NLP, Flask, Supabase    |
+| 🎓 **Student Marks Predictor**   | Machine learning-based student performance prediction | Python, Scikit-learn, Streamlit |
+| 💼 **LinkedInPilot**             | AI-powered LinkedIn profile optimization platform     | AI, Web Development, APIs       |
+| 🌊 **AquaSense AI**              | Reservoir monitoring and prediction system            | Python, Streamlit, Plotly       |
+| 📊 **Indian Election Dashboard** | Data visualization dashboard                          | Power BI                        |
+| 📈 **Trading Projects**          | Market analysis and algorithmic trading experiments   | Python, APIs, Financial Data    |
+
+---
+
+# 🧠 Currently Learning
+
+```text
+Machine Learning       ██████████░░  80%
+Python                 ██████████░░  85%
+Data Analysis          █████████░░░  75%
+SQL                    ████████░░░░  70%
+FastAPI                ███████░░░░░  60%
+Cloud & Deployment     ██████░░░░░░  55%
+Algorithmic Trading    ███████░░░░░  65%
+```
+
+---
+
+# 🌐 Connect With Me
+
+<p>
+
+<a href="https://sangamgupta.in">
+<img src="https://img.shields.io/badge/Portfolio-Visit%20Website-blue?style=for-the-badge" />
+</a>
+
+<a href="mailto:YOUR_EMAIL_HERE">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-red?style=for-the-badge" />
+</a>
+
+</p>
+
+> Replace `YOUR_EMAIL_HERE` with the email address you want to make public.
+
+---
+
+# 💡 Philosophy
+
+> **Learn → Build → Fail → Improve → Repeat 🚀**
+
+I believe the best way to learn technology is not just by watching tutorials, but by **building real projects, solving problems, breaking things, fixing them, and continuously improving.**
+
+---
+
+<p align="center">
+
+### 🚀 Building today for the technology of tomorrow.
+
+<img src="https://komarev.com/ghpvc/?username=TheSangamX&label=Profile%20Views&style=for-the-badge" />
+
+</p>
