@@ -46,7 +46,7 @@
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │  ENGINEERING PATH                                                           │
 │                                                                             │
-│  DATA  →  MODEL  →  API  →  APPLICATION  →  CLOUD  →  PRODUCTION          │
+│  DATA  →  MODEL  →  API  →  APPLICATION  →  CLOUD  →  PRODUCTION            │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
