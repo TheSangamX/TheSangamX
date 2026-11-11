@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0F2A4A,72:075985,100:38BDF8&height=250&section=header&text=SANGAM%20GUPTA&fontSize=64&fontColor=F8FAFC&fontAlignY=36&desc=ASPIRING%20AI%20%2F%20ML%20ENGINEER%20%E2%80%A2%20BUILDING%20DATA-DRIVEN%20SYSTEMS&descAlignY=57&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0F2A4A,72:075985,100:38BDF8&height=250&section=header&text=SANGAM%20GUPTA&fontSize=64&fontColor=F8FAFC&fontAlignY=36&desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%A2%20SHIPPING%20ML%20AND%20LLM%20PRODUCTS&descAlignY=57&descSize=18&animation=fadeIn" width="100%" />
 
 <br/>
 
@@ -31,10 +31,10 @@
 
 <br/><br/>
 
-[![Projects](https://img.shields.io/badge/4-End--to--End_ML_Projects-38BDF8?style=for-the-badge&labelColor=020617&logo=scikitlearn&logoColor=white)](#-featured-projects)
-[![Web Apps](https://img.shields.io/badge/3-Live_Web_Apps-38BDF8?style=for-the-badge&labelColor=020617&logo=streamlit&logoColor=white)](#-featured-projects)
-[![Accuracy](https://img.shields.io/badge/85.17%25-Model_Accuracy-38BDF8?style=for-the-badge&labelColor=020617&logo=targetprocess&logoColor=white)](#credit-risk-predictor)
-[![Google Play](https://img.shields.io/badge/1-App_on_Google_Play-38BDF8?style=for-the-badge&labelColor=020617&logo=googleplay&logoColor=white)](#student-marks-predictor)
+[![ProfilePilot](https://img.shields.io/badge/500%2B-ProfilePilot_downloads-38BDF8?style=for-the-badge&labelColor=020617&logo=googleplay&logoColor=white)](https://sangamgupta.in/work/profilepilot)
+[![Play Store](https://img.shields.io/badge/2-Apps_on_Google_Play-38BDF8?style=for-the-badge&labelColor=020617&logo=android&logoColor=white)](#featured-projects)
+[![Chrome](https://img.shields.io/badge/1-Chrome_extension-38BDF8?style=for-the-badge&labelColor=020617&logo=googlechrome&logoColor=white)](https://sangamgupta.in/work/dealshield-ai)
+[![Ask Sangam](https://img.shields.io/badge/Ask_Sangam-AI_agent_on_my_site-38BDF8?style=for-the-badge&labelColor=020617&logo=openai&logoColor=white)](https://sangamgupta.in)
 
 </div>
 
@@ -54,7 +54,7 @@
 
 # `$ whoami`
 
-I'm a **Computer Engineering student and aspiring AI/ML Engineer** focused on taking ideas beyond notebooks.
+I'm an **AI/ML engineer** (Computer Engineering, 2026) who builds and ships machine-learning and LLM products end to end, from the data to the app people install.
 
 I am interested in the complete engineering path around a model—not only training it, but understanding how it can be served, connected to applications, deployed, and improved.
 
@@ -63,11 +63,12 @@ I am interested in the complete engineering path around a model—not only train
 ```yaml
 identity:
   name: Sangam Gupta
-  role: Aspiring AI/ML Engineer | Data Science Enthusiast
-  background: Computer Engineering
+  role: AI/ML Engineer
+  background: Computer Engineering graduate (2026)
   based_in: Mumbai, India
 
 focus:
+  - LLM products: RAG, agents, structured outputs, evals
   - Machine Learning & applied Data Science
   - Model serving with FastAPI and Flask
   - API-driven applications
@@ -76,6 +77,7 @@ focus:
   - Web + Android delivery from shared backend systems
 
 currently_learning:
+  - Generative AI, in depth
   - DevOps
   - Cloud Infrastructure
   - Deep Learning
@@ -184,49 +186,60 @@ engineering/
 
 <td width="50%" valign="top">
 
-## 🎓 Student Marks Predictor
+## 🧭 ProfilePilot
 
-**ONE ML MODEL. MULTIPLE DELIVERY LAYERS.**
+**AN AI PROFILE COACH WITH 500+ DOWNLOADS ON GOOGLE PLAY.**
 
-A FastAPI backend deployed on AWS EC2 powers a live Streamlit application and a native Kotlin/Jetpack Compose Android client.
+An Android app that coaches people to a stronger professional profile without inventing a single achievement.
 
-**DELIVERY STACK**
+- 📱 500+ downloads on Google Play
+- 🧠 8 AI tools, each returning a strict JSON schema
+- 🔒 No data collected, per the Play Store data safety listing
 
-- 🌐 Streamlit web application
-- ⚙️ REST API with Swagger / OpenAPI documentation
-- ☁️ Backend running as a `systemd` service on AWS EC2
-- 📱 Android client using Kotlin, Jetpack Compose, Retrofit and Material 3
+`Android` · `Supabase Edge Functions` · `Deno` · `Postgres` · `Groq`
 
-`Python` · `FastAPI` · `Scikit-learn` · `Kotlin` · `AWS EC2` · `Streamlit`
-
-### [→ VIEW REPOSITORY](https://github.com/TheSangamX/student-marks-predictor)
+### [Case study](https://sangamgupta.in/work/profilepilot) · [Google Play](https://play.google.com/store/apps/details?id=in.sangamgupta.linkedinoptimizer)
 
 </td>
 
 <td width="50%" valign="top">
 
-## 🛡️ NewsIntel
+## 🛡️ DealShield AI
 
-**AI-POWERED FAKE NEWS DETECTION WITH A FULL APPLICATION LAYER.**
+**A NEGOTIATION COPILOT FOR GMAIL, ON THE CHROME WEB STORE.**
 
-The project combines TF-IDF and a Passive Aggressive Classifier with authentication, a Supabase-backed verification history, and a deployed user interface.
+Reads a tough negotiation email and drafts three fact-checked replies you can insert in one click.
 
-**SYSTEM FEATURES**
+- ✉️ 3 reply strategies per email, each with its reasoning
+- ✅ 2 AI passes: draft, then fact-check against the email
+- 💳 Accounts and a paid plan (Supabase + Razorpay)
 
-- 🌐 Deployed web application
-- 🔐 Google Authentication
-- 🗄️ Supabase PostgreSQL verification history
-- 🧠 NLP pipeline from text cleaning through TF-IDF
+`Chrome MV3` · `React` · `Express` · `Zod` · `Groq` · `Supabase`
 
-`Python` · `Flask` · `NLP` · `Scikit-learn` · `Supabase`
-
-### [→ VIEW REPOSITORY](https://github.com/TheSangamX/NewsIntel)
+### [Case study](https://sangamgupta.in/work/dealshield-ai) · [Code](https://github.com/TheSangamX/dealshield-ai)
 
 </td>
 
 </tr>
-
 <tr>
+
+<td width="50%" valign="top">
+
+## 🤖 sangamgupta.in
+
+**MY PORTFOLIO, BUILT AS AN AI SYSTEM.**
+
+An agent that answers questions about my work from the site's own content, with the engineering around it in public.
+
+- 🔎 Hybrid retrieval (BM25 + embeddings, fused by RRF)
+- 🔁 Groq → Gemini → offline fallback, with live telemetry
+- 🧪 Weekly evals, red-team page, drift monitoring, MCP server
+
+`Next.js` · `TypeScript` · `Groq` · `Gemini` · `Upstash Redis` · `Vercel`
+
+### [Case study](https://sangamgupta.in/work/sangamgupta-in) · [Live](https://sangamgupta.in)
+
+</td>
 
 <td width="50%" valign="top">
 
@@ -234,46 +247,67 @@ The project combines TF-IDF and a Passive Aggressive Classifier with authenticat
 
 ## 💳 Credit Risk Predictor
 
-**A LENDING-RISK CLASSIFICATION PROJECT BUILT AROUND MEASURABLE OUTPUT AND INTERPRETABILITY.**
+**TUNED TO CATCH RISKY APPLICANTS, NOT TO LOOK ACCURATE.**
 
-Built around `HistGradientBoostingClassifier` with a custom **15% decision threshold**.
+`HistGradientBoostingClassifier` with a 15% decision threshold and a per-applicant explanation.
 
-**MODEL SNAPSHOT**
+- 📈 0.76 ROC-AUC
+- 🎯 41.8% of defaulters caught at the 15% threshold
+- 🤗 Runs free on Hugging Face, same results as the original model
 
-- 📊 **85.17% accuracy**
-- 📈 **75.99% ROC-AUC**
-- 🔍 Top-20 feature-importance breakdown
-- 🖥️ Real-time default-probability prediction
+`Python` · `scikit-learn` · `pandas` · `Streamlit`
 
-`Python` · `Scikit-learn` · `Streamlit` · `Joblib`
+### [Case study](https://sangamgupta.in/work/credit-risk) · [Try it](https://huggingface.co/spaces/TheSangamX/credit-risk-predictor) · [Code](https://github.com/TheSangamX/credit_risk_predictor)
 
-### [→ VIEW REPOSITORY](https://github.com/TheSangamX/credit_risk_predictor)
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+## 📰 NewsIntel
+
+**FAKE-NEWS DETECTION WITH A FULL APPLICATION LAYER.**
+
+TF-IDF and a Passive Aggressive Classifier behind Google sign-in and a saved verification history.
+
+- 🌐 Deployed web app on its own domain
+- 🔐 Google Authentication
+- 🗄️ Supabase Postgres verification history
+
+`Python` · `Flask` · `NLP` · `scikit-learn` · `Supabase`
+
+### [Case study](https://sangamgupta.in/work/newsintel) · [Code](https://github.com/TheSangamX/NewsIntel)
 
 </td>
 
 <td width="50%" valign="top">
 
-## 💧 AquaSense AI
+## 👥 Customer Intelligence
 
-**RESERVOIR INTELLIGENCE AND PREDICTION PLATFORM.**
+**ONE MODEL, SERVED TO WEB AND ANDROID FROM ONE API.**
 
-A multi-page Streamlit dashboard built for a hackathon, using multiple ML approaches and automated flood/drought risk scoring.
+Turns raw transactions into customer segments a business can act on.
 
-**PLATFORM FEATURES**
+- 🧮 RFM features + K-Means segmentation
+- ⚙️ FastAPI on AWS EC2
+- 📱 Streamlit web app and a Kotlin Android client
 
-- 🌐 Live dashboard
-- 🤖 Linear Regression and Random Forest comparison
-- ⚠️ Flood / drought risk scoring
-- 📊 Action-oriented recommendations
+`Python` · `scikit-learn` · `FastAPI` · `AWS EC2` · `Kotlin`
 
-`Streamlit` · `Plotly` · `Scikit-learn` · `Pandas`
-
-### [→ VIEW REPOSITORY](https://github.com/TheSangamX/aquasenseai)
+### [Case study](https://sangamgupta.in/work/customer-intelligence) · [Code](https://github.com/TheSangamX/customer-intelligence-segmentation)
 
 </td>
 
 </tr>
 </table>
+
+<div align="center">
+
+**All projects, with demos you can run in the browser: [sangamgupta.in/work](https://sangamgupta.in/work)**
+
+</div>
 
 <br/>
 
@@ -281,10 +315,12 @@ A multi-page Streamlit dashboard built for a hackathon, using multiple ML approa
 
 | Project | ML / Core | Backend | Interface | Deployment |
 |---|---|---|---|---|
-| 🎓 Student Marks Predictor | Scikit-learn | FastAPI | Streamlit + Android | AWS EC2 |
-| 🛡️ NewsIntel | TF-IDF + Passive Aggressive Classifier | Flask | Web App | Live Domain |
-| 💳 Credit Risk Predictor | HistGradientBoostingClassifier | — | Streamlit | Live App |
-| 💧 AquaSense AI | Linear Regression + Random Forest | — | Streamlit | Live App |
+| 🧭 ProfilePilot | LLM (gpt-oss-120b on Groq), JSON schemas | Supabase Edge Functions | Android | Google Play |
+| 🛡️ DealShield AI | LLM draft + fact-check passes | Node.js + Express | Chrome extension | Chrome Web Store + Render |
+| 🤖 sangamgupta.in | Hybrid RAG agent, evals | Next.js API routes | Web | Vercel |
+| 💳 Credit Risk Predictor | HistGradientBoostingClassifier | — | Streamlit + static web | Hugging Face |
+| 📰 NewsIntel | TF-IDF + Passive Aggressive Classifier | Flask | Web app | Own domain |
+| 👥 Customer Intelligence | K-Means | FastAPI | Streamlit + Android | AWS EC2 |
 
 <div align="center">
 
@@ -317,6 +353,7 @@ ML → APIs → Applications → Cloud → Production
 # `$ cat currently.md`
 
 ```diff
++ Learning Generative AI in depth: RAG, agents, evals
 + Deepening the ML → API → Cloud deployment pipeline
 + Exploring algorithmic trading with Python and market-data APIs
 + Strengthening SQL, statistics, and production-grade ML fundamentals
@@ -391,6 +428,8 @@ REPEAT
 [![Portfolio](https://img.shields.io/badge/Portfolio-sangamgupta.in-0F172A?style=for-the-badge&logo=vercel&logoColor=white)](https://sangamgupta.in)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-TheSangamX-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/thesangamx)
 [![GitHub](https://img.shields.io/badge/GitHub-TheSangamX-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TheSangamX)
+[![DEV](https://img.shields.io/badge/DEV-thesangamx-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/thesangamx)
+[![Hugging Face](https://img.shields.io/badge/Hugging_Face-TheSangamX-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/TheSangamX)
 [![Medium](https://img.shields.io/badge/Medium-TheSangamX-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@TheSangamX)
 [![Blog](https://img.shields.io/badge/Blog-TheSangamX-F97316?style=for-the-badge&logo=blogger&logoColor=white)](https://thesangamx.blogspot.com/)
 [![X](https://img.shields.io/badge/X-@TheSangamX-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TheSangamX)
