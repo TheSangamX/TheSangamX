@@ -54,7 +54,9 @@
 
 # `$ whoami`
 
-I'm an **AI/ML engineer** (Computer Engineering, 2026) who builds and ships machine-learning and LLM products end to end, from the data to the app people install.
+I'm an **ML engineer** (Computer Engineering, 2026). My hands-on work is data science and classic machine learning in Python: pandas, scikit-learn, model evaluation, and serving models with FastAPI and Streamlit.
+
+I also ship AI products with AI coding assistants. For ProfilePilot, DealShield AI and my site, the idea and the launch are mine and the assistant wrote the code. I'm learning RAG, LLM APIs and deep learning so I can build that layer myself.
 
 I am interested in the complete engineering path around a model—not only training it, but understanding how it can be served, connected to applications, deployed, and improved.
 
@@ -63,21 +65,21 @@ I am interested in the complete engineering path around a model—not only train
 ```yaml
 identity:
   name: Sangam Gupta
-  role: AI/ML Engineer
+  role: ML Engineer / Data Scientist
   background: Computer Engineering graduate (2026)
   based_in: Mumbai, India
 
 focus:
-  - LLM products: RAG, agents, structured outputs, evals
   - Machine Learning & applied Data Science
-  - Model serving with FastAPI and Flask
+  - Model evaluation and feature engineering
+  - Model serving with FastAPI and Streamlit
   - API-driven applications
   - Cloud deployment with AWS EC2
   - Algorithmic trading & quantitative finance
-  - Web + Android delivery from shared backend systems
+  - Shipping AI products with AI coding assistants
 
 currently_learning:
-  - Generative AI, in depth
+  - Prompt engineering, RAG and LLM APIs
   - DevOps
   - Cloud Infrastructure
   - Deep Learning
@@ -134,10 +136,6 @@ engineering/
 ### ◈ LANGUAGES & CORE
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 <br/><br/>
 
@@ -155,21 +153,16 @@ engineering/
 ### ◈ BACKEND, APIs & APPLICATIONS
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white)
 
 <br/><br/>
 
 ### ◈ DATA, CLOUD & TOOLS
 
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![AWS EC2](https://img.shields.io/badge/AWS_EC2-232F3E?style=for-the-badge&logo=amazonec2&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
 </div>
 
@@ -190,6 +183,8 @@ engineering/
 
 **AN AI PROFILE COACH WITH 500+ DOWNLOADS ON GOOGLE PLAY.**
 
+*Built with AI coding assistants: my idea and launch, the assistant's code.*
+
 An Android app that coaches people to a stronger professional profile without inventing a single achievement.
 
 - 📱 500+ downloads on Google Play
@@ -207,6 +202,8 @@ An Android app that coaches people to a stronger professional profile without in
 ## 🛡️ DealShield AI
 
 **A NEGOTIATION COPILOT FOR GMAIL, ON THE CHROME WEB STORE.**
+
+*Built with Claude Code: my idea and launch, the assistant's code.*
 
 Reads a tough negotiation email and drafts three fact-checked replies you can insert in one click.
 
@@ -228,6 +225,8 @@ Reads a tough negotiation email and drafts three fact-checked replies you can in
 ## 🤖 sangamgupta.in
 
 **MY PORTFOLIO, BUILT AS AN AI SYSTEM.**
+
+*Built with Claude Code: I decide what goes on it, the assistant writes the code.*
 
 An agent that answers questions about my work from the site's own content, with the engineering around it in public.
 
@@ -270,6 +269,8 @@ An agent that answers questions about my work from the site's own content, with 
 
 **FAKE-NEWS DETECTION WITH A FULL APPLICATION LAYER.**
 
+*The ML model is my work; the Flask web app was built with AI help.*
+
 TF-IDF and a Passive Aggressive Classifier behind Google sign-in and a saved verification history.
 
 - 🌐 Deployed web app on its own domain
@@ -287,6 +288,8 @@ TF-IDF and a Passive Aggressive Classifier behind Google sign-in and a saved ver
 ## 👥 Customer Intelligence
 
 **ONE MODEL, SERVED TO WEB AND ANDROID FROM ONE API.**
+
+*Data work, model, API and AWS deployment are mine; the Android app was built with AI help.*
 
 Turns raw transactions into customer segments a business can act on.
 
