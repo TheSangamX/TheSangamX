@@ -5,7 +5,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0F2A4A,72:075985,100:38BDF8&height=250&section=header&text=SANGAM%20GUPTA&fontSize=64&fontColor=F8FAFC&fontAlignY=36&desc=AI%20%2F%20ML%20ENGINEER%20%E2%80%A2%20SHIPPING%20ML%20AND%20LLM%20PRODUCTS&descAlignY=57&descSize=18&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0F2A4A,72:075985,100:38BDF8&height=250&section=header&text=SANGAM%20GUPTA&fontSize=64&fontColor=F8FAFC&fontAlignY=36&desc=ML%20ENGINEER%20%E2%80%A2%20DATA%20SCIENCE%20%E2%80%A2%20SHIPPING%20AI%20PRODUCTS&descAlignY=57&descSize=18&animation=fadeIn" width="100%" />
 
 <br/>
 
@@ -114,12 +114,15 @@ engineering/
 │
 ├── backend/
 │   ├── FastAPI/
-│   ├── Flask/
 │   └── REST-APIs/
 │
 ├── applications/
 │   ├── Streamlit/
-│   └── Android / Jetpack Compose/
+│   └── Power BI dashboards/
+│
+├── ai-assisted/          # shipped with Claude Code, Cursor and friends
+│   ├── Android apps on Google Play/
+│   └── Chrome extension/
 │
 └── deployment/
     ├── AWS EC2/
@@ -164,6 +167,16 @@ engineering/
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
+### ◈ AI-ASSISTED DEVELOPMENT
+
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
+![ChatGPT](https://img.shields.io/badge/ChatGPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+
+<sub>I write what to build, test every feature, feed errors back, steer the assistant, and handle deploys and store launches.</sub>
+
 </div>
 
 ---
@@ -172,73 +185,10 @@ engineering/
 
 # `$ ls -la featured-projects/`
 
-> **Not notebooks left behind after training. These are projects built around the model, the interface, and the delivery layer.**
+> **First row: my own machine-learning work. Below it: AI products I shipped with AI coding assistants, credited as such.**
 
 <table>
 <tr>
-
-<td width="50%" valign="top">
-
-## 🧭 ProfilePilot
-
-**AN AI PROFILE COACH WITH 500+ DOWNLOADS ON GOOGLE PLAY.**
-
-*Built with AI coding assistants: my idea and launch, the assistant's code.*
-
-An Android app that coaches people to a stronger professional profile without inventing a single achievement.
-
-- 📱 500+ downloads on Google Play
-- 🧠 8 AI tools, each returning a strict JSON schema
-- 🔒 No data collected, per the Play Store data safety listing
-
-`Android` · `Supabase Edge Functions` · `Deno` · `Postgres` · `Groq`
-
-### [Case study](https://sangamgupta.in/work/profilepilot) · [Google Play](https://play.google.com/store/apps/details?id=in.sangamgupta.linkedinoptimizer)
-
-</td>
-
-<td width="50%" valign="top">
-
-## 🛡️ DealShield AI
-
-**A NEGOTIATION COPILOT FOR GMAIL, ON THE CHROME WEB STORE.**
-
-*Built with Claude Code: my idea and launch, the assistant's code.*
-
-Reads a tough negotiation email and drafts three fact-checked replies you can insert in one click.
-
-- ✉️ 3 reply strategies per email, each with its reasoning
-- ✅ 2 AI passes: draft, then fact-check against the email
-- 💳 Accounts and a paid plan (Supabase + Razorpay)
-
-`Chrome MV3` · `React` · `Express` · `Zod` · `Groq` · `Supabase`
-
-### [Case study](https://sangamgupta.in/work/dealshield-ai) · [Code](https://github.com/TheSangamX/dealshield-ai)
-
-</td>
-
-</tr>
-<tr>
-
-<td width="50%" valign="top">
-
-## 🤖 sangamgupta.in
-
-**MY PORTFOLIO, BUILT AS AN AI SYSTEM.**
-
-*Built with Claude Code: I decide what goes on it, the assistant writes the code.*
-
-An agent that answers questions about my work from the site's own content, with the engineering around it in public.
-
-- 🔎 Hybrid retrieval (BM25 + embeddings, fused by RRF)
-- 🔁 Groq → Gemini → offline fallback, with live telemetry
-- 🧪 Weekly evals, red-team page, drift monitoring, MCP server
-
-`Next.js` · `TypeScript` · `Groq` · `Gemini` · `Upstash Redis` · `Vercel`
-
-### [Case study](https://sangamgupta.in/work/sangamgupta-in) · [Live](https://sangamgupta.in)
-
-</td>
 
 <td width="50%" valign="top">
 
@@ -257,6 +207,26 @@ An agent that answers questions about my work from the site's own content, with 
 `Python` · `scikit-learn` · `pandas` · `Streamlit`
 
 ### [Case study](https://sangamgupta.in/work/credit-risk) · [Try it](https://huggingface.co/spaces/TheSangamX/credit-risk-predictor) · [Code](https://github.com/TheSangamX/credit_risk_predictor)
+
+</td>
+
+<td width="50%" valign="top">
+
+## 👥 Customer Intelligence
+
+**ONE MODEL, SERVED TO WEB AND ANDROID FROM ONE API.**
+
+*Data work, model, API and AWS deployment are mine; the Android app was built with AI help.*
+
+Turns raw transactions into customer segments a business can act on.
+
+- 🧮 RFM features + K-Means segmentation
+- ⚙️ FastAPI on AWS EC2
+- 📱 Streamlit web app and a Kotlin Android client
+
+`Python` · `scikit-learn` · `FastAPI` · `AWS EC2` · `Kotlin`
+
+### [Case study](https://sangamgupta.in/work/customer-intelligence) · [Code](https://github.com/TheSangamX/customer-intelligence-segmentation)
 
 </td>
 
@@ -285,21 +255,64 @@ TF-IDF and a Passive Aggressive Classifier behind Google sign-in and a saved ver
 
 <td width="50%" valign="top">
 
-## 👥 Customer Intelligence
+## 🧭 ProfilePilot
 
-**ONE MODEL, SERVED TO WEB AND ANDROID FROM ONE API.**
+**AN AI PROFILE COACH WITH 500+ DOWNLOADS ON GOOGLE PLAY.**
 
-*Data work, model, API and AWS deployment are mine; the Android app was built with AI help.*
+*Built with AI coding assistants: my idea and launch, the assistant's code.*
 
-Turns raw transactions into customer segments a business can act on.
+An Android app that coaches people to a stronger professional profile without inventing a single achievement.
 
-- 🧮 RFM features + K-Means segmentation
-- ⚙️ FastAPI on AWS EC2
-- 📱 Streamlit web app and a Kotlin Android client
+- 📱 500+ downloads on Google Play
+- 🧠 8 AI tools, each returning a strict JSON schema
+- 🔒 No data collected, per the Play Store data safety listing
 
-`Python` · `scikit-learn` · `FastAPI` · `AWS EC2` · `Kotlin`
+`Android` · `Supabase Edge Functions` · `Deno` · `Postgres` · `Groq`
 
-### [Case study](https://sangamgupta.in/work/customer-intelligence) · [Code](https://github.com/TheSangamX/customer-intelligence-segmentation)
+### [Case study](https://sangamgupta.in/work/profilepilot) · [Google Play](https://play.google.com/store/apps/details?id=in.sangamgupta.linkedinoptimizer)
+
+</td>
+
+</tr>
+<tr>
+
+<td width="50%" valign="top">
+
+## 🛡️ DealShield AI
+
+**A NEGOTIATION COPILOT FOR GMAIL, ON THE CHROME WEB STORE.**
+
+*Built with Claude Code: my idea and launch, the assistant's code.*
+
+Reads a tough negotiation email and drafts three fact-checked replies you can insert in one click.
+
+- ✉️ 3 reply strategies per email, each with its reasoning
+- ✅ 2 AI passes: draft, then fact-check against the email
+- 💳 Accounts and a paid plan (Supabase + Razorpay)
+
+`Chrome MV3` · `React` · `Express` · `Zod` · `Groq` · `Supabase`
+
+### [Case study](https://sangamgupta.in/work/dealshield-ai) · [Code](https://github.com/TheSangamX/dealshield-ai)
+
+</td>
+
+<td width="50%" valign="top">
+
+## 🤖 sangamgupta.in
+
+**MY PORTFOLIO, BUILT AS AN AI SYSTEM.**
+
+*Built with Claude Code: I decide what goes on it, the assistant writes the code.*
+
+An agent that answers questions about my work from the site's own content, with the engineering around it in public.
+
+- 🔎 Hybrid retrieval (BM25 + embeddings, fused by RRF)
+- 🔁 Groq → Gemini → offline fallback, with live telemetry
+- 🧪 Weekly evals, red-team page, drift monitoring, MCP server
+
+`Next.js` · `TypeScript` · `Groq` · `Gemini` · `Upstash Redis` · `Vercel`
+
+### [Case study](https://sangamgupta.in/work/sangamgupta-in) · [Live](https://sangamgupta.in)
 
 </td>
 
@@ -314,16 +327,27 @@ Turns raw transactions into customer segments a business can act on.
 
 <br/>
 
+## `Latest writing`
+
+- [Why I picked the clustering model with the lower score](https://sangamgupta.in/writing/why-i-picked-the-clustering-model-with-the-lower-score): DBSCAN won on silhouette score and still lost to K-Means.
+- [Why my credit risk model uses a 15% threshold](https://sangamgupta.in/writing/why-my-credit-risk-model-uses-a-15-percent-threshold): moving one number changed what the model is for.
+- [How I stop an AI from inventing achievements](https://sangamgupta.in/writing/how-i-stop-an-ai-from-inventing-achievements)
+
+**All posts: [sangamgupta.in/writing](https://sangamgupta.in/writing)** · also on [DEV](https://dev.to/thesangamx)
+
+<br/>
+
 ## `Project Delivery Matrix`
 
-| Project | ML / Core | Backend | Interface | Deployment |
-|---|---|---|---|---|
-| 🧭 ProfilePilot | LLM (gpt-oss-120b on Groq), JSON schemas | Supabase Edge Functions | Android | Google Play |
-| 🛡️ DealShield AI | LLM draft + fact-check passes | Node.js + Express | Chrome extension | Chrome Web Store + Render |
-| 🤖 sangamgupta.in | Hybrid RAG agent, evals | Next.js API routes | Web | Vercel |
-| 💳 Credit Risk Predictor | HistGradientBoostingClassifier | — | Streamlit + static web | Hugging Face |
-| 📰 NewsIntel | TF-IDF + Passive Aggressive Classifier | Flask | Web app | Own domain |
-| 👥 Customer Intelligence | K-Means | FastAPI | Streamlit + Android | AWS EC2 |
+| Project | ML / Core | Backend | Interface | Deployment | Built by |
+|---|---|---|---|---|---|
+| 💳 Credit Risk Predictor | HistGradientBoostingClassifier | — | Streamlit + static web | Hugging Face | Me |
+| 👥 Customer Intelligence | K-Means | FastAPI | Streamlit + Android | AWS EC2 | Me; Android app with AI help |
+| 📰 NewsIntel | TF-IDF + Passive Aggressive Classifier | Flask | Web app | Own domain | Me; Flask app with AI help |
+| 🧭 ProfilePilot | LLM (gpt-oss-120b on Groq), JSON schemas | Supabase Edge Functions | Android | Google Play | AI coding assistants (my idea and launch) |
+| 🛡️ DealShield AI | LLM draft + fact-check passes | Node.js + Express | Chrome extension | Chrome Web Store + Render | Claude Code (my idea and launch) |
+| 🤖 sangamgupta.in | Hybrid RAG agent, evals | Next.js API routes | Web | Vercel | Claude Code (my direction) |
+| 🔗 LinkVault | — | — | Android | Google Play | AI coding assistants (my idea and launch) |
 
 <div align="center">
 
@@ -356,7 +380,8 @@ ML → APIs → Applications → Cloud → Production
 # `$ cat currently.md`
 
 ```diff
-+ Learning Generative AI in depth: RAG, agents, evals
++ Learning prompt engineering, RAG and LLM APIs, so I can build the LLM layer myself
++ Learning deep learning
 + Deepening the ML → API → Cloud deployment pipeline
 + Exploring algorithmic trading with Python and market-data APIs
 + Strengthening SQL, statistics, and production-grade ML fundamentals
