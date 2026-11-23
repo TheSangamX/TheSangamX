@@ -1,0 +1,29 @@
+name: Sync README with sangamgupta.in
+
+# Newest posts and my skills come from the site, so the profile stays current without hand edits.
+on:
+  schedule:
+    - cron: "23 1 * * *" # daily, 06:53 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/sync-from-site.mjs
+      - name: Commit if changed
+        run: |
+          if git diff --quiet README.md; then echo "No changes."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Sync README with sangamgupta.in"
+          git push

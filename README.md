@@ -54,9 +54,9 @@
 
 # `$ whoami`
 
-I'm an **ML engineer** (Computer Engineering, 2026). My hands-on work is data science and classic machine learning in Python: pandas, scikit-learn, model evaluation, and serving models with FastAPI and Streamlit.
+I'm an **ML engineer and data scientist** (Computer Engineering, 2026). My hands-on work is data science and classic machine learning in Python: pandas, scikit-learn, model evaluation, and serving models with FastAPI and Streamlit. I now build with LLMs too: LangChain, prompt templates, structured output with Pydantic, and RAG with ChromaDB.
 
-I also ship AI products with AI coding assistants. For ProfilePilot, DealShield AI and my site, the idea and the launch are mine and the assistant wrote the code. I'm learning RAG, LLM APIs and deep learning so I can build that layer myself.
+I also ship AI products with AI coding assistants. For ProfilePilot, DealShield AI and my site, the idea and the launch are mine and the assistant wrote the code. I'm continuing with generative AI, then deep learning.
 
 I am interested in the complete engineering path around a model—not only training it, but understanding how it can be served, connected to applications, deployed, and improved.
 
@@ -65,7 +65,7 @@ I am interested in the complete engineering path around a model—not only train
 ```yaml
 identity:
   name: Sangam Gupta
-  role: ML Engineer / Data Scientist
+  role: ML Engineer and Data Scientist
   background: Computer Engineering graduate (2026)
   based_in: Mumbai, India
 
@@ -73,16 +73,16 @@ focus:
   - Machine Learning & applied Data Science
   - Model evaluation and feature engineering
   - Model serving with FastAPI and Streamlit
+  - Generative AI and RAG with LangChain and ChromaDB
   - API-driven applications
   - Cloud deployment with AWS EC2
   - Algorithmic trading & quantitative finance
   - Shipping AI products with AI coding assistants
 
 currently_learning:
-  - Prompt engineering, RAG and LLM APIs
-  - DevOps
-  - Cloud Infrastructure
-  - Deep Learning
+  - More generative AI (continuing the course)
+  - Prompt engineering
+  - Deep learning
 
 philosophy: "Depth over breadth — real projects over endless tutorials."
 ```
@@ -112,6 +112,11 @@ engineering/
 │   ├── model-training/
 │   └── evaluation/
 │
+├── generative-ai/
+│   ├── LangChain/        # OpenAI, Gemini, Groq, Mistral
+│   ├── structured-output/ # Pydantic parsers
+│   └── RAG/              # loaders → chunking → embeddings → ChromaDB → retrievers
+│
 ├── backend/
 │   ├── FastAPI/
 │   └── REST-APIs/
@@ -139,6 +144,7 @@ engineering/
 ### ◈ LANGUAGES & CORE
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 <br/><br/>
 
@@ -153,10 +159,25 @@ engineering/
 
 <br/><br/>
 
+### ◈ GENERATIVE AI & RAG
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Mistral](https://img.shields.io/badge/Mistral_AI-FA520F?style=for-the-badge&logo=mistralai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=for-the-badge&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
+<sub>Chat models, prompt templates, chat memory, structured output and RAG: document loaders, chunking, embeddings, ChromaDB, similarity, MMR and multi-query retrievers.</sub>
+
+<br/><br/>
+
 ### ◈ BACKEND, APIs & APPLICATIONS
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![uv](https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logo=uv&logoColor=white)
 
 <br/><br/>
 
@@ -329,11 +350,103 @@ An agent that answers questions about my work from the site's own content, with 
 
 ## `Latest writing`
 
-- [Why I picked the clustering model with the lower score](https://sangamgupta.in/writing/why-i-picked-the-clustering-model-with-the-lower-score): DBSCAN won on silhouette score and still lost to K-Means.
-- [Why my credit risk model uses a 15% threshold](https://sangamgupta.in/writing/why-my-credit-risk-model-uses-a-15-percent-threshold): moving one number changed what the model is for.
-- [How I stop an AI from inventing achievements](https://sangamgupta.in/writing/how-i-stop-an-ai-from-inventing-achievements)
+<!-- WRITING:START -->
+- **[Nine regression models, one split: what my comparison can and can't say](https://www.sangamgupta.in/writing/nine-regression-models-one-split)** <sub>2026-11-16</sub><br/>I trained nine scikit-learn regressors on the California housing data. The winner was clear, but some of the gaps in my table say more about default settings than about the algorithms.
+- **[Why I picked the clustering model with the lower score](https://www.sangamgupta.in/writing/why-i-picked-the-clustering-model-with-the-lower-score)** <sub>2026-11-13</sub><br/>DBSCAN beat K-Means on silhouette score in my customer segmentation project. It also put 98% of customers in one group. Here's how I chose.
+- **[A portfolio that updates itself](https://www.sangamgupta.in/writing/a-portfolio-that-updates-itself)** <sub>2026-11-09</sub><br/>My old site went stale every time I shipped something. So I rebuilt it to read from GitHub instead of from me.
+- **[How I stop an AI from inventing achievements](https://www.sangamgupta.in/writing/how-i-stop-an-ai-from-inventing-achievements)** <sub>2026-11-09</sub><br/>ProfilePilot rewrites people's professional profiles. The hard part wasn't making the writing good. It was making sure it never claims something the person didn't do.
+- **[Why my credit risk model uses a 15% threshold](https://www.sangamgupta.in/writing/why-my-credit-risk-model-uses-a-15-percent-threshold)** <sub>2026-11-09</sub><br/>85% accuracy sounded great until I asked what the model was actually catching. Moving one number changed what the model is for.
+<!-- WRITING:END -->
+
+<sub>Synced daily from my site's RSS feed by a GitHub Action.</sub>
 
 **All posts: [sangamgupta.in/writing](https://sangamgupta.in/writing)** · also on [DEV](https://dev.to/thesangamx)
+
+<br/>
+
+## `$ cat skills.yml`
+
+<details>
+<summary><b>Every skill I use myself, as listed on my site</b> (synced daily from <a href="https://www.sangamgupta.in/resume.json">resume.json</a>)</summary>
+
+<!-- SKILLS:START -->
+```yaml
+languages_and_data:
+  - Python
+  - SQL
+  - pandas
+  - NumPy
+  - Statistics
+  - EDA
+  - Matplotlib
+  - Seaborn
+  - Jupyter
+
+machine_learning:
+  - scikit-learn
+  - Feature engineering
+  - Model evaluation
+  - K-Means
+  - PCA
+  - RFM analysis
+  - NLP (TF-IDF, NLTK)
+
+generative_ai:
+  - LLM basics
+  - LangChain (OpenAI, Gemini, Groq, Mistral)
+  - Prompt templates
+  - Chat memory
+  - Pydantic output parsing
+  - Hugging Face
+
+rag:
+  - Document loaders (PDF, web)
+  - Text splitting and chunking
+  - Embeddings
+  - ChromaDB
+  - Retrievers (similarity, MMR, multi-query)
+
+serving_and_tools:
+  - FastAPI
+  - Streamlit
+  - uv
+  - AWS EC2
+  - Git
+  - GitHub
+
+analytics:
+  - Power BI
+  - Excel
+
+ai_assisted_development:
+  - Claude Code
+  - Cursor
+  - Copilot
+  - ChatGPT
+  - Gemini
+  - Specs and testing
+  - Vercel and Render deploys
+  - Play and Chrome Web Store launches
+```
+<!-- SKILLS:END -->
+
+</details>
+
+<br/>
+
+## `$ connect --mcp sangamgupta.in`
+
+My portfolio runs an **MCP server**, so Claude, ChatGPT, Cursor or any MCP client can read my projects, skills and writing directly and check them against a job description.
+
+```json
+{
+  "mcpServers": {
+    "sangamgupta": { "url": "https://www.sangamgupta.in/mcp" }
+  }
+}
+```
+
+Or just ask the agent on the site: **[Ask Sangam](https://www.sangamgupta.in)** · how it works: **[sangamgupta.in/connect](https://www.sangamgupta.in/connect)**
 
 <br/>
 
@@ -380,12 +493,11 @@ ML → APIs → Applications → Cloud → Production
 # `$ cat currently.md`
 
 ```diff
-+ Learning prompt engineering, RAG and LLM APIs, so I can build the LLM layer myself
-+ Learning deep learning
++ Built my first RAG apps with LangChain and ChromaDB; continuing the generative AI course
++ Practising prompt engineering, then deep learning
 + Deepening the ML → API → Cloud deployment pipeline
 + Exploring algorithmic trading with Python and market-data APIs
 + Strengthening SQL, statistics, and production-grade ML fundamentals
-+ Learning DevOps and cloud infrastructure alongside application deployment
 ```
 
 ---
