@@ -1,0 +1,52 @@
+{
+  "site": "https://www.sangamgupta.in",
+  "repo": "TheSangamX/TheSangamX",
+  "intro": "I build models in Python and scikit-learn, LLM apps and RAG with LangChain, and I ship AI products with AI coding assistants.",
+  "featured": [
+    "credit-risk",
+    "house-price-prediction",
+    "customer-intelligence",
+    "newsintel",
+    "student-marks",
+    "profilepilot",
+    "dealshield-ai",
+    "sangamgupta-in"
+  ],
+  "ask": {
+    "question": "What has Sangam built on his own?",
+    "answer": "On his own: a credit risk model tuned to catch defaulters (0.76 ROC-AUC, 41.8% of defaulters caught at a 15% threshold), customer segments with K-Means served by FastAPI on AWS EC2, and a house price model that explains 83% of the variance. ProfilePilot and DealShield AI were built by AI coding assistants from his ideas, and he launched them.",
+    "sources": [
+      "credit-risk",
+      "customer-intelligence",
+      "house-price-prediction"
+    ]
+  },
+  "links": [
+    {
+      "label": "Ask Sangam",
+      "href": "https://www.sangamgupta.in/?ask=What%20has%20Sangam%20built%20on%20his%20own%3F",
+      "primary": true
+    },
+    {
+      "label": "Portfolio",
+      "href": "https://www.sangamgupta.in"
+    },
+    {
+      "label": "Resume",
+      "href": "https://www.sangamgupta.in/resume"
+    },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/thesangamx"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:contact@sangamgupta.in"
+    },
+    {
+      "label": "X",
+      "href": "https://x.com/TheSangamX"
+    }
+  ],
+  "quote": "Work until your signature becomes an autograph."
+}

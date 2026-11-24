@@ -1,42 +1,30 @@
-name: Update README stats cards
+name: Contribution snake
 
+# Draws the last year of contributions in the site's colours, light and dark, onto the "output" branch.
 on:
   schedule:
-    - cron: "0 3 * * *"   # once a day, 3 AM UTC
-  workflow_dispatch:        # lets you trigger it manually from the Actions tab
+    - cron: "41 2 * * *" # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  update-cards:
+  snake:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
+      - uses: Platane/snk@v3
         with:
-          card: stats
-          options: >-
-            username=${{ github.repository_owner }}&show_icons=true&hide_border=true
-            &bg_color=0F172A&title_color=38BDF8&icon_color=0EA5E9&text_color=E2E8F0
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#16181d&color_dots=#eceef2,#c9cdf6,#959ff0,#5d6ae4,#2a3cdb
+            dist/snake-dark.svg?color_snake=#e8eaef&color_dots=#161b22,#232a5c,#3a46a8,#6370e6,#8d98ff
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
-          card: top-langs
-          options: >-
-            username=${{ github.repository_owner }}&layout=compact&hide_border=true
-            &bg_color=0F172A&title_color=38BDF8&text_color=E2E8F0
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Commit cards
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git commit -m "Update README stats cards" || exit 0
-          git push
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          commit_message: Update contribution snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

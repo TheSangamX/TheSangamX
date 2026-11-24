@@ -1,29 +1,44 @@
-name: Sync README with sangamgupta.in
+name: Rebuild profile from sangamgupta.in
 
-# Newest posts and my skills come from the site, so the profile stays current without hand edits.
+# The cards, numbers, skills and newest posts all come from the site, so the profile never goes stale
+# and never says more than the site does (build_profile.py stops if config.json quotes a number the site lacks).
 on:
   schedule:
     - cron: "23 1 * * *" # daily, 06:53 IST
+  push:
+    branches: [main]
+    paths: ["profile/config.json", "scripts/**", ".github/workflows/sync-site.yml"]
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-build
+  cancel-in-progress: false
+
 jobs:
-  sync:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/sync-from-site.mjs
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install fonttools brotli
+      - name: Newest posts
+        run: node scripts/sync-from-site.mjs
+      - name: Cards, numbers, skills and header
+        run: python3 scripts/build_profile.py
       - name: Commit if changed
         run: |
-          if git diff --quiet README.md; then echo "No changes."; exit 0; fi
+          git add README.md profile/svg
+          if git diff --cached --quiet; then echo "No changes."; exit 0; fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Sync README with sangamgupta.in"
-          git push
+          git commit -m "Rebuild profile from sangamgupta.in"
+          git pull --rebase -q && git push

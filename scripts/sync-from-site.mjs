@@ -1,6 +1,5 @@
-// Keeps two README sections in step with sangamgupta.in, so the profile never goes stale:
+// Keeps the README's writing list in step with sangamgupta.in, so the profile never goes stale:
 //   <!-- WRITING:START --> ... <!-- WRITING:END -->  newest posts from https://www.sangamgupta.in/feed.xml
-//   <!-- SKILLS:START -->  ... <!-- SKILLS:END -->   my skills from https://www.sangamgupta.in/resume.json
 // Run by .github/workflows/sync-site.yml once a day. Exits 0 without changes if the site can't be reached.
 import { readFileSync, writeFileSync } from "node:fs";
 
@@ -21,25 +20,17 @@ const replace = (text, name, body) => {
 
 async function writing() {
   const xml = await get("/feed.xml");
-  const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 5).map(([, item]) => {
+  const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 3).map(([, item]) => {
     const tag = (t) => decode(item.match(new RegExp(`<${t}>([\\s\\S]*?)</${t}>`))?.[1] ?? "");
     const date = new Date(tag("pubDate"));
     return { title: tag("title"), link: tag("link"), summary: tag("description"), date: isNaN(date) ? "" : date.toISOString().slice(0, 10) };
   });
   if (!items.length) throw new Error("feed has no posts");
-  return items.map((p) => `- **[${p.title}](${p.link})**${p.date ? ` <sub>${p.date}</sub>` : ""}<br/>${p.summary}`).join("\n");
-}
-
-async function skills() {
-  const resume = JSON.parse(await get("/resume.json"));
-  const groups = (resume.skills ?? []).filter((g) => g.name && g.keywords?.length);
-  if (!groups.length) throw new Error("resume.json has no skills");
-  const yaml = groups.map((g) => `${g.name.toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "")}:\n${g.keywords.map((k) => `  - ${k}`).join("\n")}`).join("\n\n");
-  return "```yaml\n" + yaml + "\n```";
+  return items.map((p) => `**[${p.title}](${p.link})**${p.date ? ` <sub>${p.date}</sub>` : ""}<br>\n${p.summary}`).join("\n\n");
 }
 
 let next = readme;
-for (const [name, build] of [["WRITING", writing], ["SKILLS", skills]]) {
+for (const [name, build] of [["WRITING", writing]]) {
   try {
     next = replace(next, name, await build());
   } catch (e) {
