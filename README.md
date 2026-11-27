@@ -49,7 +49,7 @@ The first five are my own machine-learning work; where AI helped with an app aro
 <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TheSangamX/TheSangamX/main/profile/svg/toolkit-dark.svg"><img src="https://raw.githubusercontent.com/TheSangamX/TheSangamX/main/profile/svg/toolkit-light.svg" width="100%" alt="The skills I use myself, grouped as on my site: languages and data, machine learning, generative AI, RAG, serving and tools, analytics, and the tools I direct when I ship with AI coding assistants."></picture>
 
 <!-- LEARNING:START -->
-**Learning now:** Prompt engineering, Deep learning.
+**Learning now:** Prompt engineering, MCP (Model Context Protocol), Deep learning.
 <!-- LEARNING:END -->
 
 ## Latest writing
